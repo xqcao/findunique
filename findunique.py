@@ -23,13 +23,16 @@ class Solution:
         return [x for x in arr if arr.count(x)==1]
 
 
-input=[1,3,4,5,6,7,2,4,6,1,6,7]
+if __name__ == '__main__':
+    
 
-# s = Solution().findunique(input)
-# print(input,s)
+    input=[1,3,4,5,6,7,2,4,6,1,6,7]
 
-# s2 = Solution().findunique2(input)
-# print(input,s2)
+    s = Solution().findunique(input)
+    print(input,s)
 
-s3= Solution().findunique3(input)
-print(input,s3)
+    s2 = Solution().findunique2(input)
+    print(input,s2)
+
+    s3= Solution().findunique3(input)
+    print(input,s3)
