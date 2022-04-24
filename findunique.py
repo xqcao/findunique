@@ -33,7 +33,7 @@ class Solution:
                     rr.append(alist[i])
                 i+=j
                 j=1
-            pass
+            
         if j==1:
             rr.append(alist[-1])
         return rr
